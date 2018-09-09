@@ -27,7 +27,7 @@ Valid types are:
 | S    | typeof == string
 | N    | typeof == number
 | F    | typeof == function
-| O    | typeof == object and not type A and not type E
+| O    | typeof == object and not types A, E, M, m, C, or c
 | B    | typeof == boolean
 | E    | `instanceof Error` OR `null` **(special: see below)**
 | Z    | == `null`
