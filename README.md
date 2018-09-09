@@ -8,7 +8,7 @@ A ridiculously light-weight function argument validator
   [0678a2d4]: https://github.com/iarna/aproba "aproba on GitHub"
 
 ```
-var validate = require("aproba")
+var validate = require("@delucis/aproba")
 
 function myfunc(a, b, c) {
   // `a` must be a string, `b` a number, `c` a function
