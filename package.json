@@ -1,6 +1,6 @@
 {
   "name": "@delucis/aproba",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A ridiculously light-weight argument validator w/ ES2015 types",
   "main": "index.js",
   "directories": {
