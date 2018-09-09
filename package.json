@@ -1,7 +1,7 @@
 {
-  "name": "aproba",
+  "name": "@delucis/aproba",
   "version": "2.0.0",
-  "description": "A ridiculously light-weight argument validator (now browser friendly)",
+  "description": "A ridiculously light-weight argument validator w/ ES2015 types",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -20,16 +20,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/iarna/aproba"
+    "url": "https://github.com/delucis/aproba"
   },
   "keywords": [
     "argument",
     "validate"
   ],
-  "author": "Rebecca Turner <me@re-becca.org>",
+  "author": "Chris Swithinbank <swithinbank@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iarna/aproba/issues"
+    "url": "https://github.com/delucis/aproba/issues"
   },
-  "homepage": "https://github.com/iarna/aproba"
+  "homepage": "https://github.com/delucis/aproba"
 }
