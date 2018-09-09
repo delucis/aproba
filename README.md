@@ -1,7 +1,11 @@
-aproba
-======
+@delucis/aproba
+===============
 
 A ridiculously light-weight function argument validator
+
+> _**N.B.** This is a fork of @iarna’s [`aproba`][0678a2d4] that adds support for the following ES2015 types: `Map`, `WeakMap`, `Set`, `WeakSet`, and `Symbol`. If you don’t need those, [use the original][0678a2d4]!_
+
+  [0678a2d4]: https://github.com/iarna/aproba "aproba on GitHub"
 
 ```
 var validate = require("aproba")
