@@ -34,7 +34,12 @@ test('user arg validation', t => {
     'F': () => {},
     'O': {},
     'B': false,
-    'E': new Error()
+    'E': new Error(),
+    'M': new Map(),
+    'm': new WeakMap(),
+    'C': new Set(),
+    'c': new WeakSet(),
+    'Y': Symbol('test')
   }
   Object.keys(values).forEach(type => {
     Object.keys(values).forEach(contraType => {

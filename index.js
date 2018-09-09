@@ -11,10 +11,15 @@ const types = {
   S: {label: 'string', check: _ => typeof _ === 'string'},
   N: {label: 'number', check: _ => typeof _ === 'number'},
   F: {label: 'function', check: _ => typeof _ === 'function'},
-  O: {label: 'object', check: _ => typeof _ === 'object' && _ != null && !types.A.check(_) && !types.E.check(_)},
+  O: {label: 'object', check: _ => typeof _ === 'object' && _ != null && !types.A.check(_) && !types.E.check(_) && !types.M.check(_) && !types.m.check(_) && !types.C.check(_) && !types.c.check(_)},
   B: {label: 'boolean', check: _ => typeof _ === 'boolean'},
   E: {label: 'error', check: _ => _ instanceof Error},
-  Z: {label: 'null', check: _ => _ == null}
+  Z: {label: 'null', check: _ => _ == null},
+  M: {label: 'map', check: _ => _ instanceof Map},
+  m: {label: 'weakMap', check: _ => _ instanceof WeakMap},
+  C: {label: 'set', check: _ => _ instanceof Set},
+  c: {label: 'weakSet', check: _ => _ instanceof WeakSet},
+  Y: {label: 'symbol', check: _ => typeof _ === 'symbol'}
 }
 
 function addSchema (schema, arity) {

@@ -31,6 +31,11 @@ Valid types are:
 | B    | typeof == boolean
 | E    | `instanceof Error` OR `null` **(special: see below)**
 | Z    | == `null`
+| M    | instanceof Map
+| m    | instanceof WeakMap
+| C    | instanceof Set
+| c    | instanceof WeakSet
+| Y    | typeof == symbol
 
 Validation failures throw one of three exception types, distinguished by a
 `code` property of `EMISSINGARG`, `EINVALIDTYPE` or `ETOOMANYARGS`.
@@ -91,4 +96,3 @@ asserting the interface of your functions.
 
 If you need greater validation, I encourage you to write them by hand or
 look elsewhere.
-
